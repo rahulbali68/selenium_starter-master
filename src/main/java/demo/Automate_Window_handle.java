@@ -120,6 +120,7 @@ public class Automate_Window_handle {
 
         // String originalWindowHandle = driver.getWindowHandle();
         System.out.println(originalWindowHandle);
+        System.out.println("testing");
 
     }
 
