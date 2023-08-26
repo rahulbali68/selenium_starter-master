@@ -11,12 +11,14 @@ public class App {
         // Search_Amazon search = new Search_Amazon();
         // BookMyShow show = new BookMyShow();
 
+        ImdbRatingAutomate rating = new ImdbRatingAutomate();
+
         // Automate_image image = new Automate_image();
         // Automate_Image_Url img = new Automate_Image_Url();
         // AuotmatNesttedFame frame = new AuotmatNesttedFame();
         // LinkedProfile profile = new LinkedProfile();
         // Automate_Window_handle window = new Automate_Window_handle();
-        Automate_Window_handle window = new Automate_Window_handle();
+        // Automate_Window_handle window = new Automate_Window_handle();
 
         // TODO: call your test case functions one after other here
 
@@ -25,10 +27,12 @@ public class App {
         // show.bookmyshow();
         // profile.linked();
         // frame.nestedFrame();
-        window.windowHandle();
+        // window.windowHandle();
 
         // image.automateImage();
         // img.automateimgUrl();
+
+        rating.rating();
 
         // END Tests
         // search.endTest();
@@ -37,7 +41,8 @@ public class App {
         // image.endTest();
         // img.endTest();
         // frame.endTest();
-        window.endTest();
+        // window.endTest();
+        rating.endTest();
         // tests.endTest(); // End your test by clearning connections and closing
         // browser
     }
